@@ -1,4 +1,5 @@
 site_name: zentask
+use_directory_urls: false
 nav:
   - English: index.md
   - Português: index_pt.md
