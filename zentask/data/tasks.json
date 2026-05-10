@@ -1,0 +1,12 @@
+{
+  "6a4c96a8-cf65-42fa-abac-be171ca6ec5f": {
+    "id": "6a4c96a8-cf65-42fa-abac-be171ca6ec5f",
+    "title": "teste",
+    "description": "testar coisas",
+    "status": "to_do",
+    "due_date": "2026-05-27",
+    "created_at": "2026-05-10T19:55:01.000355+00:00",
+    "updated_at": "2026-05-10T19:55:01.000371+00:00",
+    "pause_reason": null
+  }
+}

@@ -11,6 +11,7 @@ APP_VERSION = "0.1.0"
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 AUDIT_LOG_FILE = DATA_DIR / "audit_log.jsonl"
+TASKS_FILE = DATA_DIR / "tasks.json"
 
 # Task constraints
 MAX_TITLE_LENGTH = 500

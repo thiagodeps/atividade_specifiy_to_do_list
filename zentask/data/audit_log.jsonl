@@ -32,3 +32,40 @@
 {"timestamp": "2026-05-10T16:52:41.836629+00:00", "user_id": "system", "action": "delete", "task_id": "81e34672-caad-4abc-83c3-eeb019e9ee0f", "details": {"title": "Test Task"}}
 {"timestamp": "2026-05-10T16:54:03.550206+00:00", "user_id": "system", "action": "create", "task_id": "e94b9106-e52d-4f0a-bc6d-16e4d1901907", "details": {"title": "aniversario"}}
 {"timestamp": "2026-05-10T16:54:33.068610+00:00", "user_id": "system", "action": "status_change", "task_id": "e94b9106-e52d-4f0a-bc6d-16e4d1901907", "details": {"new_status": "in_progress"}}
+{"timestamp": "2026-05-10T19:44:20.131557+00:00", "user_id": "system", "action": "create", "task_id": "9a36a777-6ef9-4631-838f-260a262be4cc", "details": {"title": "aniversario"}}
+{"timestamp": "2026-05-10T19:44:51.564686+00:00", "user_id": "system", "action": "create", "task_id": "b12e41d3-89ca-4b86-9468-4702f8e5a676", "details": {"title": "ic marta"}}
+{"timestamp": "2026-05-10T19:44:54.095087+00:00", "user_id": "system", "action": "create", "task_id": "993a293a-e2e4-48f6-95e7-386dd7f91875", "details": {"title": "ic marta"}}
+{"timestamp": "2026-05-10T19:44:58.087846+00:00", "user_id": "system", "action": "delete", "task_id": "b12e41d3-89ca-4b86-9468-4702f8e5a676", "details": {"title": "ic marta"}}
+{"timestamp": "2026-05-10T19:45:46.843467+00:00", "user_id": "system", "action": "update", "task_id": "993a293a-e2e4-48f6-95e7-386dd7f91875", "details": {"title": "ic marta", "description": "testar paginas ic", "due_date": "2026-05-21"}}
+{"timestamp": "2026-05-10T19:45:48.021535+00:00", "user_id": "system", "action": "update", "task_id": "993a293a-e2e4-48f6-95e7-386dd7f91875", "details": {"title": "ic marta", "description": "testar paginas ic", "due_date": "2026-05-21"}}
+{"timestamp": "2026-05-10T19:45:50.102886+00:00", "user_id": "system", "action": "status_change", "task_id": "993a293a-e2e4-48f6-95e7-386dd7f91875", "details": {"new_status": "in_progress"}}
+{"timestamp": "2026-05-10T19:46:28.344261+00:00", "user_id": "system", "action": "create", "task_id": "1e3af130-474d-4e57-9bab-5ff2631abbbd", "details": {"title": "trab 1 ronaldo"}}
+{"timestamp": "2026-05-10T19:46:43.160592+00:00", "user_id": "system", "action": "status_change", "task_id": "993a293a-e2e4-48f6-95e7-386dd7f91875", "details": {"new_status": "paused", "reason": "outras tarefas na frente"}}
+{"timestamp": "2026-05-10T19:47:07.340297+00:00", "user_id": "system", "action": "create", "task_id": "a9ad24a4-ceb3-4a2d-9a6f-cba6a9743768", "details": {"title": "atas emmanuel"}}
+{"timestamp": "2026-05-10T19:47:16.207318+00:00", "user_id": "system", "action": "status_change", "task_id": "1e3af130-474d-4e57-9bab-5ff2631abbbd", "details": {"new_status": "in_progress"}}
+{"timestamp": "2026-05-10T19:47:50.007267+00:00", "user_id": "system", "action": "create", "task_id": "ffa0d15e-e377-4bd1-b7e0-b93f775ebe72", "details": {"title": "fazer trab ps"}}
+{"timestamp": "2026-05-10T19:50:58.650160+00:00", "user_id": "system", "action": "create", "task_id": "5569a8fe-4423-4ee9-b959-cad4cc5a120f", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:50:58.652087+00:00", "user_id": "system", "action": "create", "task_id": "3a8b5228-faaa-4fe7-9840-f4bb5948d56c", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:50:58.652571+00:00", "user_id": "system", "action": "status_change", "task_id": "3a8b5228-faaa-4fe7-9840-f4bb5948d56c", "details": {"new_status": "in_progress"}}
+{"timestamp": "2026-05-10T19:50:58.653972+00:00", "user_id": "system", "action": "status_change", "task_id": "3a8b5228-faaa-4fe7-9840-f4bb5948d56c", "details": {"new_status": "done"}}
+{"timestamp": "2026-05-10T19:50:58.656196+00:00", "user_id": "system", "action": "create", "task_id": "149c95e7-6b85-4b57-b1be-73f2f10c0515", "details": {"title": "Original Title"}}
+{"timestamp": "2026-05-10T19:50:58.656781+00:00", "user_id": "system", "action": "update", "task_id": "149c95e7-6b85-4b57-b1be-73f2f10c0515", "details": {"title": "Updated Title", "description": "New desc"}}
+{"timestamp": "2026-05-10T19:50:58.659241+00:00", "user_id": "system", "action": "create", "task_id": "dcaaa915-02a0-4194-8390-68c3344b157c", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:50:58.659710+00:00", "user_id": "system", "action": "delete", "task_id": "dcaaa915-02a0-4194-8390-68c3344b157c", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:53:39.666239+00:00", "user_id": "system", "action": "create", "task_id": "64125823-975e-412d-96ee-2c15c38887d9", "details": {"title": "Nova tarefa de teste"}}
+{"timestamp": "2026-05-10T19:53:44.914426+00:00", "user_id": "system", "action": "create", "task_id": "2c135c81-b7ef-48da-a252-82943c69016b", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:53:44.918172+00:00", "user_id": "system", "action": "create", "task_id": "93ecba7d-cda7-4c68-88b9-4e4450ac949a", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:53:44.918789+00:00", "user_id": "system", "action": "status_change", "task_id": "93ecba7d-cda7-4c68-88b9-4e4450ac949a", "details": {"new_status": "in_progress"}}
+{"timestamp": "2026-05-10T19:53:44.922755+00:00", "user_id": "system", "action": "status_change", "task_id": "93ecba7d-cda7-4c68-88b9-4e4450ac949a", "details": {"new_status": "done"}}
+{"timestamp": "2026-05-10T19:53:44.925832+00:00", "user_id": "system", "action": "create", "task_id": "51253da9-e66c-44bd-8f5f-91a4707b3d31", "details": {"title": "Original Title"}}
+{"timestamp": "2026-05-10T19:53:44.926355+00:00", "user_id": "system", "action": "update", "task_id": "51253da9-e66c-44bd-8f5f-91a4707b3d31", "details": {"title": "Updated Title", "description": "New desc"}}
+{"timestamp": "2026-05-10T19:53:44.928991+00:00", "user_id": "system", "action": "create", "task_id": "bb2db8ff-1317-4c32-bf33-615b72b703a1", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:53:44.929481+00:00", "user_id": "system", "action": "delete", "task_id": "bb2db8ff-1317-4c32-bf33-615b72b703a1", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:54:28.559911+00:00", "user_id": "system", "action": "delete", "task_id": "93ecba7d-cda7-4c68-88b9-4e4450ac949a", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:54:29.623155+00:00", "user_id": "system", "action": "delete", "task_id": "3a8b5228-faaa-4fe7-9840-f4bb5948d56c", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:54:31.029009+00:00", "user_id": "system", "action": "delete", "task_id": "5569a8fe-4423-4ee9-b959-cad4cc5a120f", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:54:32.144751+00:00", "user_id": "system", "action": "delete", "task_id": "149c95e7-6b85-4b57-b1be-73f2f10c0515", "details": {"title": "Updated Title"}}
+{"timestamp": "2026-05-10T19:54:33.213355+00:00", "user_id": "system", "action": "delete", "task_id": "64125823-975e-412d-96ee-2c15c38887d9", "details": {"title": "Nova tarefa de teste"}}
+{"timestamp": "2026-05-10T19:54:34.545530+00:00", "user_id": "system", "action": "delete", "task_id": "2c135c81-b7ef-48da-a252-82943c69016b", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T19:54:35.477605+00:00", "user_id": "system", "action": "delete", "task_id": "51253da9-e66c-44bd-8f5f-91a4707b3d31", "details": {"title": "Updated Title"}}
+{"timestamp": "2026-05-10T19:55:01.000434+00:00", "user_id": "system", "action": "create", "task_id": "6a4c96a8-cf65-42fa-abac-be171ca6ec5f", "details": {"title": "teste"}}

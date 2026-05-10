@@ -6,14 +6,20 @@ from dataclasses import replace
 
 from ..models.task import Task, TaskStatus
 from ..services.audit_service import AuditService
+from ..persistence.json_tasks import JsonTasksPersistence
 from ..config import MAX_TITLE_LENGTH, MAX_DESCRIPTION_LENGTH
 
 class TaskService:
     """Handles all task CRUD operations and state transitions."""
 
     def __init__(self, audit_service: AuditService = None):
-        self.tasks: Dict[str, Task] = {}
         self.audit_service = audit_service or AuditService()
+        self.persistence = JsonTasksPersistence()
+        self.tasks: Dict[str, Task] = self.persistence.load_tasks()
+
+    def _save_tasks(self):
+        """Save current tasks to persistent storage."""
+        self.persistence.save_tasks(self.tasks)
 
     def create(self, title: str, description: Optional[str] = None, due_date: Optional[str] = None) -> Task:
         """Create a new task."""
@@ -34,6 +40,7 @@ class TaskService:
 
         self.tasks[task.id] = task
         self.audit_service.log_event("system", "create", task.id, {"title": task.title})
+        self._save_tasks()
         return task
 
     def get(self, task_id: str) -> Optional[Task]:
@@ -79,6 +86,7 @@ class TaskService:
             updated_task = replace(task, updated_at=datetime.now(timezone.utc).isoformat(), **updates)
             self.tasks[task_id] = updated_task
             self.audit_service.log_event("system", "update", task_id, updates)
+            self._save_tasks()
             return updated_task
 
         return task
@@ -100,6 +108,7 @@ class TaskService:
         if reason:
             details["reason"] = reason
         self.audit_service.log_event("system", "status_change", task_id, details)
+        self._save_tasks()
 
         return updated_task
 
@@ -118,5 +127,6 @@ class TaskService:
         task = self.tasks.pop(task_id, None)
         if task:
             self.audit_service.log_event("system", "delete", task_id, {"title": task.title})
+            self._save_tasks()
             return True
         return False
