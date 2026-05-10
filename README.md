@@ -5,7 +5,7 @@ A simple task lifecycle management application built with Python and Streamlit.
 ## AVISO
 Esse e o codigo completo da atividade para materia de extensao , para usar o programa usa 
 ```bash 
-cd zentask```
+cd zentask
 
 ``` 
 e segue o tutorial abaixo de ultilização normal
