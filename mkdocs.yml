@@ -1,1 +1,4 @@
 site_name: zentask
+nav:
+  - English: index.md
+  - Português: index_pt.md
