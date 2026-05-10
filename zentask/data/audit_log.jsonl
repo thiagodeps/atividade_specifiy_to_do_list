@@ -1,0 +1,34 @@
+{"timestamp": "2026-05-10T16:49:13.262198", "user_id": "system", "action": "create", "task_id": "e4544e1e-ad15-4b76-8e5a-2cf878111a00", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:13.264646", "user_id": "system", "action": "create", "task_id": "dfa0fda9-1ede-4fb2-9a76-8307a9f31584", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:13.265038", "user_id": "system", "action": "status_change", "task_id": "dfa0fda9-1ede-4fb2-9a76-8307a9f31584", "details": {"new_status": "in_progress"}}
+{"timestamp": "2026-05-10T16:49:13.265212", "user_id": "system", "action": "status_change", "task_id": "dfa0fda9-1ede-4fb2-9a76-8307a9f31584", "details": {"new_status": "done"}}
+{"timestamp": "2026-05-10T16:49:13.267094", "user_id": "system", "action": "create", "task_id": "1e82edb9-f45d-4edd-9a8a-f202833096fe", "details": {"title": "Original Title"}}
+{"timestamp": "2026-05-10T16:49:13.267261", "user_id": "system", "action": "update", "task_id": "1e82edb9-f45d-4edd-9a8a-f202833096fe", "details": {"title": "Updated Title", "description": "New desc"}}
+{"timestamp": "2026-05-10T16:49:13.268803", "user_id": "system", "action": "create", "task_id": "f4cebab8-d9af-4a7a-bfe9-c4b569168277", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:13.268956", "user_id": "system", "action": "delete", "task_id": "f4cebab8-d9af-4a7a-bfe9-c4b569168277", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:35.195486+00:00", "user_id": "system", "action": "create", "task_id": "b17f7cfc-40e9-42cf-bb69-fa99f67130dc", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:35.197584+00:00", "user_id": "system", "action": "create", "task_id": "67572477-f46f-4107-adb8-58885328794e", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:35.197985+00:00", "user_id": "system", "action": "status_change", "task_id": "67572477-f46f-4107-adb8-58885328794e", "details": {"new_status": "in_progress"}}
+{"timestamp": "2026-05-10T16:49:35.198174+00:00", "user_id": "system", "action": "status_change", "task_id": "67572477-f46f-4107-adb8-58885328794e", "details": {"new_status": "done"}}
+{"timestamp": "2026-05-10T16:49:35.200709+00:00", "user_id": "system", "action": "create", "task_id": "002385a9-18d3-4b64-aeae-e5f235f174f9", "details": {"title": "Original Title"}}
+{"timestamp": "2026-05-10T16:49:35.201828+00:00", "user_id": "system", "action": "update", "task_id": "002385a9-18d3-4b64-aeae-e5f235f174f9", "details": {"title": "Updated Title", "description": "New desc"}}
+{"timestamp": "2026-05-10T16:49:35.204866+00:00", "user_id": "system", "action": "create", "task_id": "3de36c7f-1d21-42e1-b85d-2231de576358", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:35.205314+00:00", "user_id": "system", "action": "delete", "task_id": "3de36c7f-1d21-42e1-b85d-2231de576358", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:54.674810+00:00", "user_id": "system", "action": "create", "task_id": "81ef734d-d704-4d10-9ca8-4107b9ad175a", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:54.676864+00:00", "user_id": "system", "action": "create", "task_id": "e4b06f9b-e894-4651-8518-0a288fac4720", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:54.677192+00:00", "user_id": "system", "action": "status_change", "task_id": "e4b06f9b-e894-4651-8518-0a288fac4720", "details": {"new_status": "in_progress"}}
+{"timestamp": "2026-05-10T16:49:54.677503+00:00", "user_id": "system", "action": "status_change", "task_id": "e4b06f9b-e894-4651-8518-0a288fac4720", "details": {"new_status": "done"}}
+{"timestamp": "2026-05-10T16:49:54.679554+00:00", "user_id": "system", "action": "create", "task_id": "4f6105d2-9e17-4ac9-b218-4d6ad4979e5c", "details": {"title": "Original Title"}}
+{"timestamp": "2026-05-10T16:49:54.679734+00:00", "user_id": "system", "action": "update", "task_id": "4f6105d2-9e17-4ac9-b218-4d6ad4979e5c", "details": {"title": "Updated Title", "description": "New desc"}}
+{"timestamp": "2026-05-10T16:49:54.681022+00:00", "user_id": "system", "action": "create", "task_id": "c7a119e5-ce22-46c8-a96b-c02d00313907", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:49:54.681199+00:00", "user_id": "system", "action": "delete", "task_id": "c7a119e5-ce22-46c8-a96b-c02d00313907", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:52:41.831955+00:00", "user_id": "system", "action": "create", "task_id": "c81a4b9f-1c0e-4b45-80c0-d3485d4273a5", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:52:41.833355+00:00", "user_id": "system", "action": "create", "task_id": "1c9027c2-f209-4589-810d-bc8e536acc38", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:52:41.833543+00:00", "user_id": "system", "action": "status_change", "task_id": "1c9027c2-f209-4589-810d-bc8e536acc38", "details": {"new_status": "in_progress"}}
+{"timestamp": "2026-05-10T16:52:41.833662+00:00", "user_id": "system", "action": "status_change", "task_id": "1c9027c2-f209-4589-810d-bc8e536acc38", "details": {"new_status": "done"}}
+{"timestamp": "2026-05-10T16:52:41.835039+00:00", "user_id": "system", "action": "create", "task_id": "e6f41d54-b890-4275-bc62-13e35bc30014", "details": {"title": "Original Title"}}
+{"timestamp": "2026-05-10T16:52:41.835198+00:00", "user_id": "system", "action": "update", "task_id": "e6f41d54-b890-4275-bc62-13e35bc30014", "details": {"title": "Updated Title", "description": "New desc"}}
+{"timestamp": "2026-05-10T16:52:41.836490+00:00", "user_id": "system", "action": "create", "task_id": "81e34672-caad-4abc-83c3-eeb019e9ee0f", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:52:41.836629+00:00", "user_id": "system", "action": "delete", "task_id": "81e34672-caad-4abc-83c3-eeb019e9ee0f", "details": {"title": "Test Task"}}
+{"timestamp": "2026-05-10T16:54:03.550206+00:00", "user_id": "system", "action": "create", "task_id": "e94b9106-e52d-4f0a-bc6d-16e4d1901907", "details": {"title": "aniversario"}}
+{"timestamp": "2026-05-10T16:54:33.068610+00:00", "user_id": "system", "action": "status_change", "task_id": "e94b9106-e52d-4f0a-bc6d-16e4d1901907", "details": {"new_status": "in_progress"}}
